@@ -9,6 +9,7 @@ public class EvenOrOddNumber {
         Scanner input = new Scanner(System.in);
 
     int number = input.nextInt();
+     System.out.print("Number is ");
     int result = number%2;
     if( result == 0 ){
       System.out.println("even");
